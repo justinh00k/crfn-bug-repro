@@ -1,23 +1,25 @@
 {
-  "name": "gatsby-starter-minimal",
-  "version": "1.0.0",
-  "private": true,
-  "description": "A Gatsby starter with no plugins and a single welcome page.",
-  "author": "Laurie Barth",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "license": "0BSD",
-  "dependencies": {
-    "gatsby": "^4.8.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  }
+	"name": "crfn-bug-repro",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Error repro",
+	"author": "Justin Hook",
+	"keywords": [
+		"gatsby"
+	],
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean"
+	},
+	"license": "0BSD",
+	"dependencies": {
+		"esm": "^3.2.25",
+		"gatsby": "^4.8.0",
+		"gatsby-source-filesystem": "^4.8.0",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	}
 }
